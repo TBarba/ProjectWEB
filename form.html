@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width">
+    <title>Aanmeldpagina</title>
+</head>
+
+<body>
+    <form>
+        <p>Voornaam</p>
+        <input type="text" name="voornaam">
+        <p>Tussenvoegsel</p>
+        <input type="text" name="tussenvoegsel">
+        <p>Achternaam</p>
+        <input type="text" name="achternaam">
+        <p>E-mailadres</p>
+        <input type="email" name="e-mailadres">
+        <p>Straat</p>
+        <input type="text" name="straat">
+        <p>Postcode</p>
+        <input type="text" class="postcode" pattern="[0-9]{4}" placeholder="4 nummers" />
+        <input type="text" class="postcode" pattern="[A-Z]{2}" placeholder="2 letters" />
+
+        <p>Telefoonnummer</p>
+        <input type="tel" name="telefoonnummer">
+        <p>Wachtwoord</p>
+        <input type="password" name="wachtwoord">
+        <input type="submit" name="submit">
+
+    </form>
+
+</body>
+
+</html>
